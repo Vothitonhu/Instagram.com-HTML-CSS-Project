@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 0.5px solid rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 18%;
+    margin: 0 auto;
+}
+.nav .logoMenu{
+    display: flex;
+}
+.search input{
+    height: 20px;
+    width: 120%;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    border: #AAA 1px solid;
+}
+
+.iconMenu i{
+   font-size: 1.5em;
+   margin: 0 10px;
+}
