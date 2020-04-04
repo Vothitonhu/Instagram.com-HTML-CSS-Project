@@ -27,7 +27,7 @@ body{
 }
 
 /* style for avatar-user that is a component in sidebar */
-.avatar-user, .story, .title{
+.avatar-user, .story, .title, .user{
     display: flex;
 }
 .avatar-user img{
@@ -48,14 +48,14 @@ body{
 
 
 /* Style for stories in sidebar */
-.stories{
+.stories, .follow{
     width: 100%;
     height: 250px;
     border: 1px solid #AAA;
     margin-top: 10px;
     border-radius: 5px;
     background-color: #fff;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 .story{
     margin-bottom: 10px;
@@ -66,7 +66,7 @@ body{
     flex-grow: 1;
 }
 .title .watch{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .story img{
     width: 2.8rem;
@@ -84,4 +84,30 @@ body{
     color:#444;
     font-size: 0.8rem;
 }
-
+/* Style for Goi y component in sidebar */
+.c-bulletin{
+    display: flex;
+    margin-bottom: 10px;
+}
+.user{
+    flex-grow: 1;
+}
+.user img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.user p b{
+    color:#444;
+    font-size: 0.8rem;
+}
+.user p{
+    line-height: 5px;
+    margin-left: 10px;
+    color: rgb(155, 151, 151);
+    font-size: 0.6rem;
+}
+.bfollow{
+    color:#1fadf1;
+    font-size: 0.8rem;
+}
