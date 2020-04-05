@@ -15,7 +15,7 @@ body{
 }
 .main{
     grid-column: 2/3;
-    height: 300px;
+    height: auto;
     margin-top: 30px;
     background-color: #fff;
 }
@@ -60,7 +60,7 @@ body{
 .story{
     margin-bottom: 10px;
 }
-.title .new{
+.title .tagP{
     font-size: 0.9rem;
     color: #666;
     flex-grow: 1;
@@ -69,8 +69,8 @@ body{
     font-size: 0.7rem;
 }
 .story img{
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     border: 1px solid  #fb2d2d;
 }
@@ -93,8 +93,8 @@ body{
     flex-grow: 1;
 }
 .user img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
     border-radius: 50%;
 }
 .user p b{
@@ -110,4 +110,52 @@ body{
 .bfollow{
     color:#1fadf1;
     font-size: 0.8rem;
+}
+ /* Style for main components */
+ .new{
+    border-radius: 3px;
+    border: #AAA 1px solid;
+ }
+ .new-top{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+ }
+ .new-top img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #fb2d2d;
+ }
+.new-top p{
+    flex-grow: 1;
+}
+ .new-top p b{
+    color:#444;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+.new-top i{
+    font-size: 0.8rem;
+    color: #444;
+}
+.new-middle{
+    padding: 10px;
+}
+.new-bottom{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: #AAA 1px solid;
+    padding: 10px;
+}
+.new-bottom p{
+    color: #9ee3f3;
+    font-size: 0.9rem;
+}
+.new-bottom input{
+    flex-grow: 1;
+    border: none;
 }
