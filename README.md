@@ -1,5 +1,4 @@
-#This is my first css project in coderx
-To view this UI: Please access this url: https://final-css-project-coderx.web.app
+# This is my first css project in coderx
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
